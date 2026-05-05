@@ -21,7 +21,7 @@ Difficulty finding help for specific modules or topics
 
 This leads to frustration, inefficiency, and unequal access to academic support.
 
-### Solution
+## Solution
 
 CampusConnect provides a centralized platform where students can:
 
@@ -62,12 +62,10 @@ Moderate uploads and requests
 Ensure content quality and relevance
 Tech Stack (Proposed)
 Frontend: HTML, CSS, JavaScript
-Backend: Node.js (Express) or Django
+Backend: Node.js (Express)
 Database: MongoDB or MySQL
 Storage: Firebase Storage or AWS S3
-
-## Target Users
-
+Target Users
 University students (primary users)
 Tutors and peer mentors
 Academic support communities
