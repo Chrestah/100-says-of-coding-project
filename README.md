@@ -1,38 +1,89 @@
-# 100-says-of-coding-project
-# CampusShare 📚
+##CampusConnect 🎓
 
-## Project Overview
-CampusShare is a web-based academic resource-sharing platform designed to enable students to upload, access, and share study materials such as lecture slides, notes, summaries, and past exam resources. The platform centralizes peer-generated academic content to improve accessibility and support collaborative learning across different year levels.
+##Project Overview
 
-#### Problem Statement
-Students often struggle to access quality study materials after lectures or from previous academic years. Resources are scattered across informal channels such as WhatsApp groups or personal storage, making them difficult to organize and retrieve.
+CampusConnect is a web-based academic resource-sharing platform designed to foster collaboration and support among students. The platform enables students to both request and share academic materials, creating a structured and interactive environment for peer-to-peer learning.
 
-## Solution
-CampusShare provides a centralized platform where students can:
-- Upload academic resources
-- Organize materials by module and year
-- Search and download study content easily
-- Share knowledge across different student levels
+Unlike traditional resource platforms, CampusConnect introduces a dual system:
 
-## Key Features
-- User authentication (student accounts)
-- Upload and download of academic files (PDF, PPT, DOCX)
-- Module-based categorization
-- Search and filtering system
-- Admin moderation for content quality
-- Optional rating/feedback system
+A Giveaway Tab where students upload and share study materials
+A Request Tab where students can ask for specific resources they need
 
-## Tech Stack (Proposed)
+This approach ensures that resource sharing is not only passive but also responsive to student needs.
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Node.js / Django
-- Database: MongoDB / MySQL
-- Storage: Firebase / AWS S3
+##Problem Statement
 
-## Target Users
-- University students
-- Tutors and mentors
-- Academic support groups
+Many students struggle to access relevant academic materials due to:
 
-## Project Goal
-To improve academic success by making learning resources more accessible, structured, and community-driven.
+Resources being scattered across informal platforms (e.g., WhatsApp, emails)
+Lack of access to materials from previous academic years
+Difficulty finding help for specific modules or topics
+
+This leads to frustration, inefficiency, and unequal access to academic support.
+
+###Solution
+
+CampusConnect provides a centralized platform where students can:
+
+Upload and share academic resources (Giveaway)
+Request specific materials from other students (Request)
+Easily search and access organized study content
+
+By combining both sharing and requesting, the platform creates a more dynamic and supportive academic ecosystem.
+
+###Key Features
+
+#🔹 Giveaway Tab
+
+Upload notes, slides, summaries, and past materials
+Categorize by module, year, and faculty
+Help other students by contributing resources
+
+#🔹 Request Tab
+
+Post requests for specific materials (e.g., “CSC101 notes”)
+Allow other students to respond by uploading or sharing resources
+Encourage targeted academic support
+
+#🔹 User Accounts
+
+Student registration and login
+User profiles (faculty, year of study)
+
+#🔹 Resource Management
+
+File uploads (PDF, PPT, DOCX)
+Download and preview functionality
+Search and filtering by module or keyword
+
+#🔹 Admin Controls
+
+Moderate uploads and requests
+Ensure content quality and relevance
+Tech Stack (Proposed)
+Frontend: HTML, CSS, JavaScript
+Backend: Node.js (Express) or Django
+Database: MongoDB or MySQL
+Storage: Firebase Storage or AWS S3
+
+##Target Users
+
+University students (primary users)
+Tutors and peer mentors
+Academic support communities
+
+##Project Goal
+
+To create a collaborative digital environment where students actively support one another by sharing and requesting academic resources, ultimately improving accessibility, reducing frustration, and enhancing academic success.
+
+##Future Enhancements
+
+Real-time notifications for fulfilled requests
+Rating and feedback system for resources
+AI-based resource recommendations
+Mobile application version
+Integration with university systems
+
+##Key Concept
+
+CampusConnect is not just a storage platform — it is an interactive academic support system built on student collaboration.
